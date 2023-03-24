@@ -1,0 +1,13 @@
+h1 {
+  font-family: 'Montserrat, sans-serif';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+nav a {
+  margin-left: 5px;
+}
+div ul li {
+  margin-inline: 5px;
+}
