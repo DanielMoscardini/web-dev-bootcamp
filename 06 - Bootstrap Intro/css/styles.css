@@ -9,6 +9,7 @@ h1 {
   font-weight: 600;
 }
 
+/* Title ------------------------------------------------------------------------------------ */
 .site-brand {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2em;
@@ -59,13 +60,14 @@ button img {
   display: flex;
   width: 100%px;
   justify-content: space-between;
+  /* margin-inline: em; */
 }
 
 .feature-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3em;
+  padding: 5em;
   text-align: center;
 }
 
@@ -82,4 +84,39 @@ button img {
 .feature-item p {
   font-size: 0.9em;
   columns: #8f8f8f;
+}
+
+/* Testimonials ------------------------------------------------------------------------------------ */
+#testimonials {
+  text-align: center;
+  background: #ff4c68;
+  color: white;
+}
+
+#testimonials h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials .carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press ------------------------------------------------------------------------------------ */
+#press {
+  background: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
