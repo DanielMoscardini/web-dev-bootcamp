@@ -51,16 +51,34 @@ button img {
 
 /* Title Img */
 .title-image {
-  width: 60%;
+  margin-left: 10em;
+  width: 40%;
   transform: rotate(25deg);
 }
 
+@media (max-width: 992px) {
+  .title-image {
+    width: 30%;
+    transform: rotate(0deg);
+    margin-left: 2em;
+  }
+}
+
+@media (max-width: 992px) {
+  .title-image {
+    width: 40%;
+  }
+}
+
 /* Features ------------------------------------------------------------------------------------ */
+#features {
+  background: white;
+}
+
 .feature-content {
   display: flex;
   width: 100%px;
   justify-content: space-between;
-  /* margin-inline: em; */
 }
 
 .feature-item {
@@ -119,4 +137,52 @@ button img {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing ------------------------------------------------------------------------------------ */
+#pricing {
+  padding: 100px;
+}
+
+#pricing h2 {
+  font-weight: bold;
+}
+
+#pricing .card button {
+  max-width: 15em;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action ------------------------------------------------------------------------------ */
+#cta {
+  background: #ff4c68;
+  text-align: center;
+  padding: 8em 8em;
+}
+
+#cta h3 {
+  color: white;
+  font-weight: bold;
+}
+
+#cta button {
+  margin-top: 3em;
+}
+
+/* Footer ------------------------------------------------------------------------------------- */
+
+#footer {
+  padding: 5em 8em;
+  width: 500px;
+  margin: 0 auto;
+}
+
+#footer .footer-img {
+  align-items: center;
+  width: 15px;
+  margin-bottom: 2em;
+  margin-inline: 1em;
 }
