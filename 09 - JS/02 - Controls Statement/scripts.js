@@ -1,5 +1,5 @@
-let yourName = prompt('What is your name? ');
-let otherName = prompt('What is the other persons name? ');
+// let yourName = prompt('What is your name? ');
+// let otherName = prompt('What is the other persons name? ');
 
 let loveScore = Math.floor(Math.random() * 100) + 1;
 
