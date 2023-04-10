@@ -1,2 +1,3 @@
-$('#title').text('Bye');
-$('#title').html('<em>Hello!</em>');
+$('input').keypress(function (event) {
+  console.log(event.key);
+});
