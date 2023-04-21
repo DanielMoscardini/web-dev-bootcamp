@@ -1,0 +1,15 @@
+body {
+  width: 400px;
+  height: 400px;
+  margin: 100px auto;
+}
+
+.form-control {
+  height: 4rem;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.signup {
+  font-weight: bold;
+}
