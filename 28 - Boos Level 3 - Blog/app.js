@@ -22,8 +22,10 @@ let posts = [];
 
 // Routes
 app.get('/', (req, res) => {
-  res.render('home', { startingContent: homeStartingContent });
-  console.log(posts);
+  res.render('home', {
+    startingContent: homeStartingContent,
+    postArray: posts
+  });
 });
 
 app.get('/about', (req, res) => {
@@ -44,7 +46,7 @@ app.post('/compose', (req, res) => {
     content: req.body.postBody
   };
   posts.push(post);
-  res.redirect('/')
+  res.redirect('/');
 });
 
 app.listen(3000, () => {
